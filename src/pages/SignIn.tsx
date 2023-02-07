@@ -41,7 +41,7 @@ export const SignIn = () => {
         }
       />
       <button
-        data-testid='signup-button'
+        data-testid='signin-button'
         disabled={!canSignIn}
         onClick={() => onSignIn({ email, password })}
       >
